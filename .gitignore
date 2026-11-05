@@ -1,0 +1,73 @@
+# =================
+# Python Essentials
+# =================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =================
+# Virtual Environments
+# =================
+venv/
+ENV/
+env/
+.venv/
+
+# =================
+# Environment & Secrets
+# =================
+# Crucial for API keys (OpenAI, Azure, etc.)
+.env
+*.env
+*.local
+
+# =================
+# IDEs & Editors
+# =================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =================
+# Testing, Linting & Logs
+# =================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+logs/
+*.log
+
+# =================
+# AutoGen Specific
+# =================
+# Default local code execution directories (e.g., LocalCommandLineCodeExecutor)
+coding/
+workspace/
+
+# Caches and state files generated during multi-agent runs
+.autogen/
+.cache/
