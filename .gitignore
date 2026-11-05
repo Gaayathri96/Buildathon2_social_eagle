@@ -71,3 +71,7 @@ workspace/
 # Caches and state files generated during multi-agent runs
 .autogen/
 .cache/
+__pycache__/
+.env
+logs/*.csv
+.DS_Store
