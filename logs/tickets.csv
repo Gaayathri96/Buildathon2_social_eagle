@@ -1,0 +1,63 @@
+ticket_id,timestamp,customer_name,order_id,complaint,category,urgency,sentiment,kb_sources,response,status,escalation_reason
+TICK-CE1AAE,2026-11-06 00:00:58,Carlos Gomez,SE-88214,"Enaku 2 days munadi varavendiya order reach agavey illa
+",Shipping,Medium,Frustrated,"--- Source: shipping_policy.md ---
+# ShopEase – Shipping Policy
+
+## 1. Shipping Locations
+ShopEase delivers products across India, including major cities and selected rural locations.
+
+## 2. Shipping Charges
+- Standard delivery: ₹50.
+- Free delivery ...","வணக்கம், உங்கள் ஆர்டர் 2 நாட்களுக்கு முன்பு வர வேண்டும் என்றால், அது இன்னும் வந்திருக்கவில்லை என்பதை நான் வருந்துகிறேன். உங்கள் ஆர்டர் நிலையை சரிபார்க்க, நீங்கள் உங்கள் ShopEase கணக்கில் 'என் ஆர்டர்கள்' பகுதியில் சென்று பார்க்கலாம். மேலும், உங்கள் ஆர்டர் அனுப்பப்பட்ட பிறகு, நீங்கள் SMS அல்லது மின்னஞ்சல் மூலம் ஒரு கண்காணிப்பு இணைப்பு பெறுவீர்கள். உங்கள் ஆர்டர் 2-4 வேலை நாட்களில் மெட்ரோ நகரங்களில், 4-7 வேலை நாட்களில் பிற நகரங்களில், மற்றும் 7-10 வேலை நாட்களில் தொலைவான இடங்களில் வர வேண்டும். உங்கள் ஆர்டர் இன்னும் வரவில்லை என்றால், தயவுசெய்து support@shopease.example என்ற மின்னஞ்சலுக்கு தொடர்பு கொள்ளவும். நன்றி!",Resolved,
+TICK-F8AFBE,2026-11-06 00:02:18,Ananya Verma,SE-88216," ""Where is my order? It was supposed to arrive yesterday.""
+",Shipping,High,Frustrated,"--- Source: shipping_policy.md ---
+# ShopEase – Shipping Policy
+
+## 1. Shipping Locations
+ShopEase delivers products across India, including major cities and selected rural locations.
+
+## 2. Shipping Charges
+- Standard delivery: ₹50.
+- Free delivery ...","[Human Supervisor Approved] Thank you for reaching out regarding your order. I apologize for the inconvenience caused by the delay. Delivery times typically range from 2 to 4 business days for metro cities, and it seems your order may be delayed. You can track your order through the 'My Orders' section of your ShopEase account or by using the tracking link sent to you via SMS or email. If your order does not arrive soon, please feel free to contact us at support@shopease.example for further assistance.",Escalated,High urgency & angry sentiment
+TICKET-001,2026-11-06 00:04:55,Pierre Dubois,12345,Delayed shipment,Shipping,High,Frustrated,Shipping Policy,We are looking into the delay and will update you shortly.,Open,Delay in shipment
+TICK-ECA480,2026-11-06 00:04:57,Pierre Dubois,SE-30303,"""Je n'arrive pas à me connecter à mon compte après avoir réinitialisé mon mot de passe.""
+",Account,Medium,Frustrated,"--- Source: account_and_login.md ---
+# ShopEase – Account and Login Guide
+
+## 1. Creating an Account
+Customers can create an account by:
+1. Visiting www.shopease.example.
+2. Clicking Sign Up.
+3. Entering their name and email address.
+4. Creating a pa...","Bonjour, je suis désolé d'apprendre que vous avez des difficultés à vous connecter à votre compte après avoir réinitialisé votre mot de passe. Voici quelques étapes à suivre :
+
+1. Assurez-vous que vous utilisez l'adresse e-mail enregistrée pour votre compte.
+2. Entrez le nouveau mot de passe que vous avez créé lors de la réinitialisation.
+3. Si vous avez essayé plusieurs fois sans succès, votre compte pourrait être temporairement verrouillé. Dans ce cas, veuillez attendre 30 minutes avant d'essayer à nouveau.
+
+Si le problème persiste, n'hésitez pas à contacter notre support à l'adresse accounts@shopease.example pour obtenir de l'aide supplémentaire. 
+
+Merci de votre compréhension et bonne journée !",Resolved,
+TICKET-001,2026-11-06 00:05:52,Vikram Patel,12345,Delayed shipment,Shipping,High,Frustrated,"Shipping Policy, FAQ",We are currently investigating the delay and will update you shortly.,Open,Customer expressed frustration over the delay.
+TICK-76625A,2026-11-06 00:05:55,Vikram Patel,SE-60606,"""URGENT: Received a broken ceramic vase in my package today. I need an immediate replacement sent out before my event on Friday!""
+",Shipping,High,Frustrated,"--- Source: refund_policy.md ---
+# ShopEase – Refund and Return Policy
+
+## 1. Return Eligibility
+Customers can request a return within 7 days of receiving eligible products.
+
+Products must:
+- Be unused and undamaged.
+- Have original packaging.
+- Incl...","[Human Supervisor Approved] Dear Customer,
+
+Thank you for reaching out to us regarding the broken ceramic vase you received. We sincerely apologize for the inconvenience this has caused, especially with your event approaching on Friday.
+
+To expedite the replacement process, please provide us with photographs of the damaged vase along with your order details. Since you reported this issue within 48 hours of delivery, we can assist you in getting a replacement sent out as soon as possible.
+
+You can send the required information to our customer support email at support@shopease.example. We will prioritize your request to ensure you receive the replacement in time for your event.
+
+Thank you for your understanding, and we look forward to resolving this matter swiftly.
+
+Best regards,
+ShopEase Customer Support",Escalated,High urgency & angry sentiment
