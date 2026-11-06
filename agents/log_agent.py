@@ -17,12 +17,11 @@ def log_ticket(
     escalation_reason: str,
     ticket_id: str = None
 ) -> str:
-    """Records the ticket to logs/tickets.csv using the exact required columns."""
+    """Records the ticket to logs/tickets.csv using exact required columns."""
     log_dir = "logs"
     os.makedirs(log_dir, exist_ok=True)
     log_file = os.path.join(log_dir, "tickets.csv")
     
-    # Generate automatic ID and timestamp if not provided
     if not ticket_id:
         ticket_id = f"TICK-{uuid.uuid4().hex[:6].upper()}"
     
@@ -55,16 +54,7 @@ def log_ticket(
 def create_log_agent(llm_config):
     agent = ConversableAgent(
         name="LogAgent",
-        system_message="""You are an administrative logging agent.
-Review the ticket lifecycle and apply Escalation Rules:
-Escalate to human support if:
-- Urgency is High
-- Sentiment is Very Angry
-- KB found no matching documents
-- Issue involves legal threats, fraud, or payment disputes
-- Resolution confidence is Low
-
-Record every ticket using the `log_ticket` tool.""",
+        system_message="You are an administrative logging agent. Review ticket lifecycles, apply escalation rules, and record tickets using the `log_ticket` tool.",
         llm_config=llm_config,
         human_input_mode="NEVER"
     )
